@@ -224,21 +224,21 @@ ItemDisplay[GEM=3 GEMTYPE=5]: sapphire
 ItemDisplay[GEM=3 GEMTYPE=6]: topaz
 ItemDisplay[GEM=3 GEMTYPE=7]: skull
 //Flawless (Tier4): (Standard display with orange crafting indicator)
-ItemDisplay[GEM=4 GEMTYPE=1]: %ORANGE%Flawless Amethyst
-ItemDisplay[GEM=4 GEMTYPE=2]: %ORANGE%Flawless Diamond
-ItemDisplay[GEM=4 GEMTYPE=3]: %ORANGE%Flawless Emerald
-ItemDisplay[GEM=4 GEMTYPE=4]: %ORANGE%Flawless Ruby
-ItemDisplay[GEM=4 GEMTYPE=5]: %ORANGE%Flawless Sapphire
-ItemDisplay[GEM=4 GEMTYPE=6]: %ORANGE%Flawless Topaz
-ItemDisplay[GEM=4 GEMTYPE=7]: %ORANGE%Flawless Skull
+ItemDisplay[GEM=4 GEMTYPE=1]: %ORANGE%Flawless %PURPLE%Amethyst
+ItemDisplay[GEM=4 GEMTYPE=2]: %ORANGE%Flawless %WHITE%Diamond
+ItemDisplay[GEM=4 GEMTYPE=3]: %ORANGE%Flawless %GREEN%Emerald
+ItemDisplay[GEM=4 GEMTYPE=4]: %ORANGE%Flawless %RED%Ruby
+ItemDisplay[GEM=4 GEMTYPE=5]: %ORANGE%Flawless %BLUE%Sapphire
+ItemDisplay[GEM=4 GEMTYPE=6]: %ORANGE%Flawless %YELLOW%Topaz
+ItemDisplay[GEM=4 GEMTYPE=7]: %ORANGE%Flawless %GRAY%Skull
 //PERFECT (Tier5): (Uppercase display with orange crafting and tier indicator)
-ItemDisplay[GEM=5 GEMTYPE=1]: %ORANGE%Perfect Amethyst
-ItemDisplay[GEM=5 GEMTYPE=2]: %ORANGE%Perfect Diamond
-ItemDisplay[GEM=5 GEMTYPE=3]: %ORANGE%Perfect Emerald
-ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%Perfect Ruby
-ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%Perfect Sapphire
-ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%Perfect Topaz
-ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%Perfect Skull
+ItemDisplay[GEM=5 GEMTYPE=1]: %ORANGE%Perfect %PURPLE%Amethyst
+ItemDisplay[GEM=5 GEMTYPE=2]: %ORANGE%Perfect %WHITE%Diamond
+ItemDisplay[GEM=5 GEMTYPE=3]: %ORANGE%Perfect %GREEN%Emerald
+ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%Perfect %RED%Ruby
+ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%Perfect %BLUE%Sapphire
+ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%Perfect %YELLOW%Topaz
+ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%Perfect %GRAY%Skull
 //
 
 
