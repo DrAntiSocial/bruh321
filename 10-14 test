@@ -43,20 +43,20 @@ ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-//ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 2]
+//ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 3]
 ItemDisplay[ma1]: %PURPLE%Tier 2 Relic
-//ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 1]
+//ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 2]
 ItemDisplay[ma2]: %PURPLE%Tier 1 Relic
-//ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 3]
+//ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 4]
 ItemDisplay[ma3]: %PURPLE%Tier 3 Relic
-//ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 4]
+//ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 1]
 ItemDisplay[ma4]: %PURPLE%Tier 4 Relic
 //ItemDisplay[ma5]: %PURPLE%New Map Relic [Tier 5]
 ItemDisplay[ma5]: %PURPLE%Tier 5 Relic
 //ItemDisplay[ma6]: %PURPLE%New Map 2 Relic [Tier 6]
 ItemDisplay[ma6]: %PURPLE%Tier 6 Relic
-ItemDisplay[cx6]: %PURPLE%%NAME%
-ItemDisplay[cx7]: %PURPLE%%NAME%
+ItemDisplay[cx6]: %PURPLE%%NAME% 
+ItemDisplay[cx7]: %PURPLE%%NAME% Chaos Key
 ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
