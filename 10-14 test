@@ -16,11 +16,11 @@ ItemDisplay[CL4 SOCK=2 SK84>0]: %NAME%
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<4000]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%! %WHITE%FULL
-ItemDisplay[hp4]: %RED%!%WHITE%L HPot
-ItemDisplay[hp5]: %RED%!%WHITE%XL HPot
-ItemDisplay[mp4]: %BLUE%!%WHITE%L MPot
-ItemDisplay[mp5]: %BLUE%!%WHITE%XL MPot
+ItemDisplay[rvl]: %PURPLE%!%WHITE%FULL
+ItemDisplay[hp4]: %RED%!%WHITE%L%RED%Pot
+ItemDisplay[hp5]: %RED%!%WHITE%XL%RED%Pot
+ItemDisplay[mp4]: %BLUE%!%WHITE%L%BLUE%Pot
+ItemDisplay[mp5]: %BLUE%!%WHITE%XL%BLUE%Pot
 ItemDisplay[rvs CLVL>65]: 
 ItemDisplay[rvs CLVL<66]: %PURPLE%! %WHITE%Rejuv
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
@@ -43,20 +43,17 @@ ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-//ItemDisplay[ma1]: %PURPLE%Dark Cavern Relic [Tier 4]
-ItemDisplay[ma1]: %PURPLE%Tier 4 Relic
-//ItemDisplay[ma2]: %PURPLE%Decrepit Tomb Relic [Tier 5]
-ItemDisplay[ma2]: %PURPLE%Tier 5 Relic
-//ItemDisplay[ma3]: %PURPLE%Abandoned Precinct Relic [Tier 6]
-ItemDisplay[ma3]: %PURPLE%Tier 6 Relic
-//ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 1]
-ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
-//ItemDisplay[ma5]: %PURPLE%New Map Relic [Tier 2]
-ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-//ItemDisplay[ma6]: %PURPLE%New Map 2 Relic [Tier 6]
-ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
-ItemDisplay[cx6]: %PURPLE%%NAME% 
-ItemDisplay[cx7]: %PURPLE%%NAME% Chaos Key
+ItemDisplay[cx6]: %PURPLE%%NAME%
+ItemDisplay[cx7]: %PURPLE%¤¤¤¤ KEY OF CHAOS ¤¤¤¤
+ItemDisplay[cx8]: %PURPLE%Enchantment Orb
+ItemDisplay[cx9]: %PURPLE%%NAME%
+ItemDisplay[ma1]: %PURPLE%%NAME%
+ItemDisplay[ma2]: %PURPLE%%NAME%
+ItemDisplay[ma3]: %PURPLE%%NAME%
+ItemDisplay[ma4]: %PURPLE%%NAME%
+ItemDisplay[ma5]: %PURPLE%%NAME%
+ItemDisplay[ma6]: %PURPLE%%NAME%
+ItemDisplay[ma7]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
@@ -108,51 +105,41 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 
 //RUNES
 //1-16
-ItemDisplay[r01 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r02 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r03 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r01]: %ORANGE%%RUNENAME% 
-ItemDisplay[r02]: %ORANGE%%RUNENAME% 
-ItemDisplay[r03]: %ORANGE%%RUNENAME% 
-ItemDisplay[r02]: %ORANGE%%RUNENAME%
-ItemDisplay[r03]: %ORANGE%%RUNENAME%
-ItemDisplay[r04]: %ORANGE%Nef 
-ItemDisplay[r05 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r05]: %ORANGE%%RUNENAME% 
-ItemDisplay[r06]: %ORANGE%Ith 
-ItemDisplay[r07]: %ORANGE%Tal 
-ItemDisplay[r08]: %ORANGE%Ral 
-ItemDisplay[r09]: %ORANGE%Ort 
-ItemDisplay[r10]: %ORANGE%Thul 
-ItemDisplay[r11]: %ORANGE%Amn 
-ItemDisplay[r12]: %ORANGE%Sol 
-ItemDisplay[r13 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r14 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r15 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r16 CLVL>86]: %ORANGE%%RUNENAME% 
-ItemDisplay[r13]: %ORANGE%%RUNENAME% 
-ItemDisplay[r14]: %ORANGE%%RUNENAME% 
-ItemDisplay[r15]: %ORANGE%%RUNENAME% 
-ItemDisplay[r16]: %ORANGE%%RUNENAME% 
+ItemDisplay[r01]: %ORANGE%El Rune
+ItemDisplay[r02]: %ORANGE%Eld Rune
+ItemDisplay[r03]: %ORANGE%Tir Rune
+ItemDisplay[r04]: %ORANGE%Nef Rune
+ItemDisplay[r05]: %ORANGE%Eth Rune
+ItemDisplay[r06]: %ORANGE%Ith Rune
+ItemDisplay[r07]: %ORANGE%Tal Rune
+ItemDisplay[r08]: %ORANGE%Ral Rune
+ItemDisplay[r09]: %ORANGE%Ort Rune
+ItemDisplay[r10]: %ORANGE%Thul Rune
+ItemDisplay[r11]: %ORANGE%Amn Rune
+ItemDisplay[r12]: %ORANGE%Sol Rune
+ItemDisplay[r13]: %ORANGE%Shael Rune
+ItemDisplay[r14]: %ORANGE%Dol Rune
+ItemDisplay[r15]: %ORANGE%Hel Rune
+ItemDisplay[r16]: %ORANGE%Io Rune
 //17-23
-ItemDisplay[r17]: %ORANGE%%RUNENAME%
-ItemDisplay[r18]: %ORANGE%%RUNENAME%
-ItemDisplay[r19]: %ORANGE%%RUNENAME% 
-ItemDisplay[r20]: %ORANGE%%RUNENAME% 
-ItemDisplay[r21]: %ORANGE%%RUNENAME% 
-ItemDisplay[r22]: %ORANGE%%RUNENAME% 
-ItemDisplay[r23]: %ORANGE%%RUNENAME%
+ItemDisplay[r17]: %ORANGE%Lum Rune
+ItemDisplay[r18]: %ORANGE%Ko Rune 
+ItemDisplay[r19]: %ORANGE%Fal Rune
+ItemDisplay[r20]: %ORANGE%Lem Rune
+ItemDisplay[r21]: %ORANGE%Pul Rune
+ItemDisplay[r22]: %ORANGE%Um Rune
+ItemDisplay[r23]: %ORANGE%Mal Rune
 //24-33
-ItemDisplay[r24]: %ORANGE%%RUNENAME%
-ItemDisplay[r25]: %ORANGE%%RUNENAME%
-ItemDisplay[r26]: %ORANGE%%RUNENAME%
-//ItemDisplay[r27]: %ORANGE%%RUNENAME%
-//ItemDisplay[r28]: %ORANGE%%RUNENAME%
-//ItemDisplay[r29]: %ORANGE%%RUNENAME%
-//ItemDisplay[r30]: %ORANGE%%RUNENAME% 
-ItemDisplay[r31]: %ORANGE%%RUNENAME%
-ItemDisplay[r32]: %ORANGE%%RUNENAME%
-ItemDisplay[r33]: %ORANGE%%RUNENAME%
+ItemDisplay[r24]: %ORANGE%Ist Rune
+ItemDisplay[r25]: %ORANGE%Gul Rune
+ItemDisplay[r26]: %ORANGE%Vex Rune
+//ItemDisplay[r27]: %ORANGE%Ohm Rune
+//ItemDisplay[r28]: %ORANGE%Lo Rune
+//ItemDisplay[r29]: %ORANGE%Sur Rune
+//ItemDisplay[r30]: %ORANGE%Ber Rune
+ItemDisplay[r31]: %ORANGE%Jah Rune
+ItemDisplay[r32]: %ORANGE%Cham Rune
+ItemDisplay[r33]: %ORANGE%Zod Rune
 //High Value Runes (3.0+)
 ItemDisplay[r27]: %ORANGE%¤ %RUNENAME% ¤
 ItemDisplay[r28]: %ORANGE%¤ %RUNENAME% ¤
@@ -179,73 +166,67 @@ ItemDisplay[xyz]: %TAN%%NAME%
 
 
 //GEMS
-//1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
-//chipped (Tier 1)
-ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=7 DIFFICULTY>0]:
-//flawed (Tier2)
-ItemDisplay[GEM=2 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=7 DIFFICULTY>0]:
-//normal (Tier3)
-ItemDisplay[GEM=3 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=7 DIFFICULTY>0]:
-//chipped (Tier1): (lowercase display)
-ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
-ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
-ItemDisplay[GEM=1 GEMTYPE=3]: chipped emerald
-ItemDisplay[GEM=1 GEMTYPE=4]: chipped ruby
-ItemDisplay[GEM=1 GEMTYPE=5]: chipped sapphire
-ItemDisplay[GEM=1 GEMTYPE=6]: chipped topaz
-ItemDisplay[GEM=1 GEMTYPE=7]: chipped skull
-//flawed (Tier2): (lowercase display)
-ItemDisplay[GEM=2 GEMTYPE=1]: flawed amethyst
-ItemDisplay[GEM=2 GEMTYPE=2]: flawed diamond
-ItemDisplay[GEM=2 GEMTYPE=3]: flawed emerald
-ItemDisplay[GEM=2 GEMTYPE=4]: flawed ruby
-ItemDisplay[GEM=2 GEMTYPE=5]: flawed sapphire
-ItemDisplay[GEM=2 GEMTYPE=6]: flawed topaz
-ItemDisplay[GEM=2 GEMTYPE=7]: flawed skull
-//normal (Tier3): (lowercase display)
-ItemDisplay[GEM=3 GEMTYPE=1]: amethyst
-ItemDisplay[GEM=3 GEMTYPE=2]: diamond
-ItemDisplay[GEM=3 GEMTYPE=3]: emerald
-ItemDisplay[GEM=3 GEMTYPE=4]: ruby
-ItemDisplay[GEM=3 GEMTYPE=5]: sapphire
-ItemDisplay[GEM=3 GEMTYPE=6]: topaz
-ItemDisplay[GEM=3 GEMTYPE=7]: skull
-//Flawless (Tier4): (Standard display with orange crafting indicator)
-ItemDisplay[GEM=4 GEMTYPE=1]: %ORANGE%Flawless %PURPLE%Amethyst
-ItemDisplay[GEM=4 GEMTYPE=2]: %ORANGE%Flawless %WHITE%Diamond
-ItemDisplay[GEM=4 GEMTYPE=3]: %ORANGE%Flawless %GREEN%Emerald
-ItemDisplay[GEM=4 GEMTYPE=4]: %ORANGE%Flawless %RED%Ruby
-ItemDisplay[GEM=4 GEMTYPE=5]: %ORANGE%Flawless %BLUE%Sapphire
-ItemDisplay[GEM=4 GEMTYPE=6]: %ORANGE%Flawless %YELLOW%Topaz
-ItemDisplay[GEM=4 GEMTYPE=7]: %ORANGE%Flawless %GRAY%Skull
-//PERFECT (Tier5): (Uppercase display with orange crafting and tier indicator)
-ItemDisplay[GEM=5 GEMTYPE=1]: %ORANGE%Perfect %PURPLE%Amethyst
-ItemDisplay[GEM=5 GEMTYPE=2]: %ORANGE%Perfect %WHITE%Diamond
-ItemDisplay[GEM=5 GEMTYPE=3]: %ORANGE%Perfect %GREEN%Emerald
-ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%Perfect %RED%Ruby
-ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%Perfect %BLUE%Sapphire
-ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%Perfect %YELLOW%Topaz
-ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%Perfect %GRAY%Skull
-//
-
+//Gems Chipped
+ItemDisplay[gcv CLVL<30]: chipped amethyst
+ItemDisplay[gcw CLVL<30]: chipped diamond
+ItemDisplay[gcg CLVL<30]: chipped emerald
+ItemDisplay[gcr CLVL<30]: chipped ruby
+ItemDisplay[gcb CLVL<30]: chipped sapphire
+ItemDisplay[gcy CLVL<30]: chipped topaz
+ItemDisplay[skc CLVL<30]: chipped skull
+ItemDisplay[gcv CLVL>29]:
+ItemDisplay[gcw CLVL>29]:
+ItemDisplay[gcg CLVL>29]:
+ItemDisplay[gcr CLVL>29]:
+ItemDisplay[gcb CLVL>29]:
+ItemDisplay[gcy CLVL>29]:
+ItemDisplay[skc CLVL>29]:
+//Gems Flawed
+ItemDisplay[gfv CLVL<40]: flawed amethyst
+ItemDisplay[gfw CLVL<40]: flawed diamond
+ItemDisplay[gfg CLVL<40]: flawed emerald
+ItemDisplay[gfr CLVL<40]: flawed ruby
+ItemDisplay[gfb CLVL<40]: flawed sapphire
+ItemDisplay[gfy CLVL<40]: flawed topaz
+ItemDisplay[skf CLVL<40]: flawed skull
+ItemDisplay[gfv CLVL>39]:
+ItemDisplay[gfw CLVL>39]:
+ItemDisplay[gfg CLVL>39]:
+ItemDisplay[gfr CLVL>39]:
+ItemDisplay[gfb CLVL>39]:
+ItemDisplay[gfy CLVL>39]:
+ItemDisplay[skf CLVL>39]:
+//Gems Normal
+ItemDisplay[gsv CLVL<50]: amethyst
+ItemDisplay[gsw CLVL<50]: diamond
+ItemDisplay[gsg CLVL<50]: emerald
+ItemDisplay[gsr CLVL<50]: ruby
+ItemDisplay[gsb CLVL<50]: sapphire
+ItemDisplay[gsy CLVL<50]: topaz
+ItemDisplay[sku CLVL<50]: skull
+ItemDisplay[gsv CLVL>49]:
+ItemDisplay[gsw CLVL>49]:
+ItemDisplay[gsg CLVL>49]:
+ItemDisplay[gsr CLVL>49]:
+ItemDisplay[gsb CLVL>49]:
+ItemDisplay[gsy CLVL>49]:
+ItemDisplay[sku CLVL>49]:
+//Gems flawless
+ItemDisplay[gzv]: %ORANGE%Flawless %PURPLE%Amethyst
+ItemDisplay[glw]: %ORANGE%Flawless %WHITE%Diamond
+ItemDisplay[glg]: %ORANGE%Flawless %GREEN%Emerald
+ItemDisplay[glr]: %ORANGE%Flawless %RED%Ruby
+ItemDisplay[glb]: %ORANGE%Flawless %BLUE%Sapphire
+ItemDisplay[gly]: %ORANGE%Flawless %YELLOW%Topaz
+ItemDisplay[skl]: %ORANGE%Flawless %TAN%Skull
+//Gems Perfect
+ItemDisplay[gpv]: %ORANGE%Perfect %PURPLE%AMETHYST
+ItemDisplay[gpw]: %ORANGE%Perfect %WHITE%DIAMOND
+ItemDisplay[gpg]: %ORANGE%Perfect %GREEN%EMERALD
+ItemDisplay[gpr]: %ORANGE%Perfect %RED%RUBY
+ItemDisplay[gpb]: %ORANGE%Perfect %BLUE%SAPPHIRE
+ItemDisplay[gpy]: %ORANGE%Perfect %YELLOW%TOPAZ
+ItemDisplay[skz]: %ORANGE%Perfect %TAN%SKULL
 
 
 //Uniques
@@ -374,25 +355,32 @@ ItemDisplay[SET]: %NAME%
 
 
 //Amulets
-ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME% 
-ItemDisplay[MAG amu ILVL=90]: %BLUE%%NAME% 
-ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=92]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=93]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=94]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=95]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=96]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=97]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
+ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
+ItemDisplay[MAG amu ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 90+]
+ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 90+]
+ItemDisplay[MAG amu ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 88+]
+ItemDisplay[MAG amu ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 88+]
+ItemDisplay[MAG amu ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 86+]
+ItemDisplay[MAG amu ILVL=95]: %BLUE%%NAME%%ORANGE% [CLVL 86+]
+ItemDisplay[MAG amu ILVL=96]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+ItemDisplay[MAG amu ILVL=97]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+ItemDisplay[MAG amu ILVL<88]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Rings
-ItemDisplay[MAG rin]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+ItemDisplay[MAG rin ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+ItemDisplay[MAG rin ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+ItemDisplay[MAG rin ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+ItemDisplay[MAG rin ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 80+]
+ItemDisplay[MAG rin ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+ItemDisplay[MAG rin ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+ItemDisplay[MAG rin ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+ItemDisplay[MAG rin ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+ItemDisplay[MAG rin ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
+ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //
 
 //Gloves
@@ -406,31 +394,31 @@ ItemDisplay[MAG rin]: %BLUE%%NAME%
 //ItemDisplay[MAG vgl ILVL=90]: %BLUE%Blood Gloves
 //ItemDisplay[MAG vgl ILVL=91]: %BLUE%Blood Gloves
 //Sharkskin & Vampirebone Gloves
-ItemDisplay[MAG xvg ILVL=85]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=86]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=87]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=88]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=89]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=90]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=91]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=92]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=93]: %BLUE%Blood Gloves
-ItemDisplay[MAG xvg ILVL=94]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=85]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=86]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=87]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=88]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=89]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=90]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=91]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=92]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=93]: %BLUE%Blood Gloves
-ItemDisplay[MAG uvg ILVL=94]: %BLUE%Blood Gloves
-ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %BLUE%Blood Gloves
-ItemDisplay[MAG (xvg OR uvg) ILVL=96]: %BLUE%Blood Gloves
-ItemDisplay[MAG (xvg OR uvg) ILVL=97]: %BLUE%Blood Gloves
-ItemDisplay[MAG (xvg OR uvg) ILVL=98]: %BLUE%Blood Gloves
-ItemDisplay[MAG (xvg OR uvg) ILVL=99]: %BLUE%Blood Gloves
+ItemDisplay[MAG xvg ILVL=85]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=86]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=87]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=88]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=89]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=90]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=91]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=92]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=93]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG xvg ILVL=94]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=85]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=86]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=87]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=88]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=89]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=90]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=91]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=92]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=93]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG uvg ILVL=94]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG (xvg OR uvg) ILVL=95]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG (xvg OR uvg) ILVL=96]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG (xvg OR uvg) ILVL=97]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG (xvg OR uvg) ILVL=98]: %BLUE%BLOOD Gloves
+ItemDisplay[MAG (xvg OR uvg) ILVL=99]: %BLUE%BLOOD Gloves
 
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
@@ -473,8 +461,8 @@ ItemDisplay[MAG (xmg OR umg) ILVL=99]: %BLUE%Hit Power Gloves
 ItemDisplay[MAG uvc ILVL>84]: %BLUE%Caster Belt
 ItemDisplay[MAG zvb ILVL>84]: %BLUE%Caster Belt
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc ILVL>84]: %BLUE%Blood Belt
-ItemDisplay[MAG zmb ILVL>84]: %BLUE%Blood Belt
+ItemDisplay[MAG umc ILVL>84]: %BLUE%BLOOD Belt
+ItemDisplay[MAG zmb ILVL>84]: %BLUE%BLOOD Belt
 
 //BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
@@ -496,8 +484,8 @@ ItemDisplay[MAG cm1 ILVL=47]: %NAME% %BLUE%[L%ILVL%]
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%%NAME%
+ItemDisplay[MAG cm3 ILVL>84]: %NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 //
 
 //BASES
@@ -1952,14 +1940,14 @@ ItemDisplay[NMAG !RW 9cs ILVL>59]:
 //ItemDisplay[NMAG !RW 9hw ILVL>59]:
 //ItemDisplay[NMAG !RW 9tw ILVL>59]:
 ItemDisplay[NMAG !RW 9qr ILVL>59]:
-ItemDisplay[NMAG !RW 7ar ILVL>68]:
+//ItemDisplay[NMAG !RW 7ar ILVL>62]:%NAME%
 ItemDisplay[NMAG !RW 7wb ILVL>68]:
 ItemDisplay[NMAG !RW 7xf ILVL>68]:
 ItemDisplay[NMAG !RW 7cs ILVL>68]:
 //ItemDisplay[NMAG !RW 7lw ILVL>68]:
 //ItemDisplay[NMAG !RW 7hw ILVL>68]:
 //ItemDisplay[NMAG !RW 7tw ILVL>68]:
-ItemDisplay[NMAG !RW 7qr ILVL>68]:
+//ItemDisplay[NMAG !RW 7qr ILVL>62]:%NAME%
 //Amazon Weapons
 ItemDisplay[NMAG !RW am1 ILVL>26]:
 ItemDisplay[NMAG !RW am2 ILVL>26]:
